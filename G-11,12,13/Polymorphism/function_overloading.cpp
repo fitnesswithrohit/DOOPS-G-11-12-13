@@ -2,20 +2,20 @@
 #include <iostream>
 using namespace std;
 
-//Function overloading with different number of arguments
-// int product(int x,int y){
-//     return x*y;
-// }
+// Function overloading with different number of arguments
+int product(int x,int y){
+    return x*y;
+}
 
-// int product(int x,int y, int z){
-//     return x*y*z;
-// }
+int product(int x,int y, int z){
+    return x*y*z;
+}
 
-// int main(){
-//     cout<<product(10,3)<<endl;//'\n'
-//     cout<<product(10,3,2);
-//     return 0;
-// }
+int main(){
+    cout<<product(10,3)<<endl;//'\n'
+    cout<<product(10,3,2);
+    return 0;
+}
 
 
 //Function overloading with different types of arguments
