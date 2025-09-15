@@ -8,7 +8,7 @@ class Base {
 public:
     // Declare the function as virtual to allow overriding
     // in derived classes
-    void display()
+    virtual void display()
     {
         cout << " Base class" << endl;
     }
@@ -21,7 +21,7 @@ public:
 class Derived : public Base {
 public:
     // Override the display method
-    void display() 
+    void display() override
     {
         cout << " Derived class" << endl;
     }
